@@ -1,0 +1,43 @@
+language: R
+sudo: false
+dist: trusty
+cache: packages
+r_packages:
+  - devtools
+r_github_packages:
+  - IRkernel/IRkernel
+  - nteract/papermillr
+before_script:
+  - source .travis.sh
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - create_conda_environment
+  - source activate test-environment
+  - pip install -U -q pip setuptools wheel
+  - pip install -U -q 'papermill>=0.16.0'
+  - R -e "IRkernel::installspec()"
+  - jupyter kernelspec list
+  - pip freeze
+script:
+  # Run pytest -s to disable capturing of stdout and see prints
+  - pytest
+
+stages:
+  - test
+  - name: binder
+    if: (branch = master) AND (NOT (type IN (pull_request)))
+
+jobs:
+  include:
+  - r: release
+  - stage: binder
+    before_install: skip
+    install: skip
+    before_script: skip
+    script:
+      # Use Binder build API to trigger repo2docker to build image
+      - bash binder/trigger_binder.sh https://mybinder.org/build/gh/matthewfeickert/R-in-Jupyter-with-Binder/"${TRAVIS_BRANCH}"
+    after_success: skip
+
+env:
+  global:
+  - MAKEFLAGS="-j 2"
