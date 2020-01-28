@@ -1,0 +1,24 @@
+Mouse number	Chanllenge	Time_exp	Sacrifice	Sample type	volume	Note	Sample ID
+M1	PBS	PBS	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M1.PBS.1hour.BAL
+M2	PBS	PBS	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M2.PBS.1hour.BAL
+M3	PBS	PBS	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M3.PBS.1hour.BAL
+M4	MOC	1hour	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M4.MOC.1hour.BAL
+M5	MOC	1hour	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M5.MOC.1hour.BAL
+M6	MOC	1hour	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M6.MOC.1hour.BAL
+M7	MOC	1hour	1hour	BAL	1ml	Please save 100ul in the vial for us	FM.M7.MOC.1hour.BAL
+M8	MOC	4hour	4hour	BAL	1ml	Please save 100ul in the vial for us	FM.M8.MOC.4hour.BAL
+M9	MOC	4hour	4hour	BAL	1ml	Please save 100ul in the vial for us	FM.M9.MOC.4hour.BAL
+M10	MOC	4hour	4hour	BAL	1ml	Please save 100ul in the vial for us	FM.M10.MOC.4hour.BAL
+M11	MOC	4hour	4hour	BAL	1ml	Please save 100ul in the vial for us	FM.M11.MOC.4hour.BAL
+M12	MOC	1day	1day	BAL	1ml	Please save 100ul in the vial for us	FM.M12.MOC.1day.BAL
+M13	MOC	1day	1day	BAL	1ml	Please save 100ul in the vial for us	FM.M13.MOC.1day.BAL
+M14	MOC	1day	1day	BAL	1ml	Please save 100ul in the vial for us	FM.M14.MOC.1day.BAL
+M15	MOC	3day	3day	BAL	1ml	Please save 100ul in the vial for us	FM.M15.MOC.3day.BAL
+M16	MOC	3day	3day	BAL	1ml	Please save 100ul in the vial for us	FM.M16.MOC.3day.BAL
+M17	MOC	3day	3day	BAL	1ml	Please save 100ul in the vial for us	FM.M17.MOC.3day.BAL
+M18	MOC	7day	7day	BAL	1ml	Please save 100ul in the vial for us	FM.M18.MOC.7day.BAL
+M19	MOC	7day	7day	BAL	1ml	Please save 100ul in the vial for us	FM.M19.MOC.7day.BAL
+M20	MOC	7day	7day	BAL	1ml	Please save 100ul in the vial for us	FM.M20.MOC.7day.BAL
+MOC	Inocolum	MOC	n.a.	BAL	1ml	n.a.	MOC
+NEG1	n.a.	n.a.	n.a.	n.a.	1ml	n.a.	NEG1
+NEG2	n.a.	n.a.	n.a.	n.a.	1ml	n.a.	NEG2
