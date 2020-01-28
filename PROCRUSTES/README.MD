@@ -7,7 +7,8 @@ The Required Input Data
 * Metagenome (.RData): Contains the count table for only the KO annotated counts for the Metagenome
 
 1. Open R
-1. Follow Code 
+1. Follow Code to create the following Figures:
+    * #### SFigure 3, SFigure 4
   1. At the start of the code you will need to load packages required for analysis, for example:
 ```
 library(vegan)
