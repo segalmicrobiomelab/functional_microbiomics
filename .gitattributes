@@ -1,0 +1,2 @@
+*.RData filter=lfs diff=lfs merge=lfs -text
+PROCRUSTES/*.RData filter=lfs diff=lfs merge=lfs -text
