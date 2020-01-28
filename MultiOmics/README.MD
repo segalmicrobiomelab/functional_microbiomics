@@ -6,8 +6,8 @@ The Required Input Data
 
 1. Open R
 1. Follow Code Combined_Omics_Figure_GIT.r to create The Following Figure
-  * #### Figure 3B
-  1. At the start of the code you will need to load packages required for analysis, for example:
+   * #### Figure 3B
+1. At the start of the code you will need to load packages required for analysis, for example:
 ```
 library(DESeq2)
 ```
