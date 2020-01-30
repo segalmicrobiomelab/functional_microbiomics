@@ -1,4 +1,4 @@
-## For the Human 16S rRNA Gene Sequencing
+## For the Mouse 16S rRNA Gene Sequencing
 The Required Input Data
 * Microbe Abundance (.biom):An abundance table with microbial species in rows and samples in columns.
 * MetaData (.txt): A spreadsheet with samples in rows and metadata in columns
