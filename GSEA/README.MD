@@ -19,5 +19,4 @@ library(eulerr)
 * If you don't have this package you will need to install it, for example:
 ```
 install.packages("eulerr")
-
 ```
