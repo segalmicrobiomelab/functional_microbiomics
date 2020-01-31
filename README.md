@@ -17,7 +17,7 @@
 6. Save the .pkg file, double-click it to open, and follow the installation instructions.
 
 ## Running the Analysis
-There are eight seperate analysis pipelines:
+There are nine seperate analysis pipelines:
 * [Human 16S rRNA gene Sequencing](https://github.com/segalmicrobiomelab/functional_microbiomics/tree/master/16S)
 * [Human Whole Genome Sequencing](https://github.com/segalmicrobiomelab/functional_microbiomics/tree/master/MetaGenome)
 * [Human RNA Metatranscriptome Sequencing](https://github.com/segalmicrobiomelab/functional_microbiomics/tree/master/MetaTranscriptome)
