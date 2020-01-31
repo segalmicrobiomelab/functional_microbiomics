@@ -5,9 +5,9 @@ The Required Input Data
 * Tree File (.tree): 
 
 1. Open R
-1. Follow Code MultiOmics_16S_GIT.r to create The Following Figures
-  1. Figure 6A, Figure 6B, Figure 6C, Figure 6D
-  1. At the start of the code you will need to load packages required for analysis, for example:
+1. Follow Code MultiOmics_Mouse_16S_GIT.r to create The Following Figures
+    * #### Figure 6A, Figure 6B, Figure 6C, Figure 6D
+1. At the start of the code you will need to load packages required for analysis, for example:
 ```
 library(vegan)
 ```
