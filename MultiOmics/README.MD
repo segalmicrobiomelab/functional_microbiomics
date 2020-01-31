@@ -15,6 +15,7 @@ The Required Input Data
 library(DESeq2)
 ```
 * If you don't have this package you will need to install it, for example:
+
 ```
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
